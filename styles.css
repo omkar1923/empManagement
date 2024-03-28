@@ -5,18 +5,69 @@ body {
     padding: 0;
     background-color: #f0f0f0;
   }
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 50px;
+    display: block; 
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+s
+  .logo {
+    left: 10%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo img {
+    /* width: auto; */
+    height: 100%;
+    object-fit: contain;
+  }
   
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
   }
   
   /* Navbar styles */
   .navbar {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 0px 0;
   }
   
   .navbar .container {
